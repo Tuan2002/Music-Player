@@ -1,0 +1,27 @@
+@media screen and (max-width: 767px) {
+    :is(.header__left, .left__side-bar, .right__side-bar) {
+        display: none;
+    }
+
+    .header__center {
+        width: 100%;
+    }
+
+    #app-container {
+        height: auto;
+        margin-top: 0;
+        padding: 16px;
+        border-radius: 0;
+        box-shadow: none;
+    }
+
+    #content {
+        height: 100%;
+    }
+
+    .music-info {
+        margin-bottom: 40%;
+        width: 80%;
+    }
+
+}
